@@ -1,0 +1,291 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farseena Nazrin | Developer Portfolio</title>
+    <meta name="description" content="Personal portfolio of Farseena Nazrin, Computer Science and Engineering graduate.">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: #f8f7fb;
+            color: #252238;
+            line-height: 1.7;
+        }
+
+        header {
+            background: #211a35;
+            color: white;
+            padding: 18px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        header h2 {
+            color: #c5a4ff;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            color: #c5a4ff;
+        }
+
+        .hero {
+            min-height: 430px;
+            padding: 100px 10%;
+            background: linear-gradient(120deg, #eee6fa, #ffffff);
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            color: #30234d;
+            margin: 12px 0;
+        }
+
+        .hero h3 {
+            color: #7651a8;
+        }
+
+        .hero p {
+            max-width: 650px;
+            margin: 15px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #7651a8;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 7px;
+            text-decoration: none;
+            margin-top: 15px;
+        }
+
+        section {
+            padding: 65px 10%;
+        }
+
+        section h2 {
+            color: #7651a8;
+            font-size: 30px;
+            margin-bottom: 25px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 18px rgba(0,0,0,0.05);
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skills span {
+            background: #eee6fa;
+            color: #523b79;
+            padding: 9px 16px;
+            border-radius: 20px;
+        }
+
+        footer {
+            background: #211a35;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        @media(max-width: 700px) {
+            header {
+                gap: 12px;
+            }
+
+            nav a {
+                margin: 0 10px 0 0;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>Farseena.</h2>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h3>HELLO, WELCOME TO MY PORTFOLIO</h3>
+    <h1>Farseena Nazrin</h1>
+    <h3>Computer Science Graduate | Aspiring Full Stack Developer</h3>
+
+    <p>
+        I am a Computer Science and Engineering graduate with a
+        strong interest in software development, artificial intelligence,
+        web technologies and building innovative digital solutions.
+    </p>
+
+    <a href="#projects" class="btn">Explore My Work</a>
+</div>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+            I hold a Bachelor of Engineering in Computer Science and
+            Engineering with Distinction from Universal Engineering College,
+            Kerala, India.
+        </p>
+        <p>
+            My academic background includes software engineering,
+            data structures, database management, artificial intelligence,
+            machine learning and web development.
+        </p>
+        <p>
+            I am passionate about learning emerging technologies and
+            developing practical software solutions.
+        </p>
+    </div>
+</section>
+
+<section id="experience">
+    <h2>Professional Experience</h2>
+
+    <div class="card">
+        <h3>Administrative Officer</h3>
+        <h4>Al Shams Dental Clinic | July 2022 – August 2024</h4>
+        <ul>
+            <li>Managed incoming and outgoing correspondence.</li>
+            <li>Maintained organised document filing systems.</li>
+            <li>Handled customer enquiries and telephone calls.</li>
+            <li>Prepared reports using Microsoft Office.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h3>Administrative Assistant</h3>
+        <h4>VSK Catering Service | March 2020 – July 2022</h4>
+        <ul>
+            <li>Coordinated daily office operations.</li>
+            <li>Managed correspondence and telephone enquiries.</li>
+            <li>Improved document organisation and filing processes.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="card skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>React</span>
+        <span>Python</span>
+        <span>Java</span>
+        <span>C</span>
+        <span>C++</span>
+        <span>Django</span>
+        <span>Node.js</span>
+        <span>SQL</span>
+        <span>Artificial Intelligence</span>
+        <span>Machine Learning</span>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Academic Projects</h2>
+
+    <div class="card">
+        <h3>Style Up – Virtual Try-on System</h3>
+        <p>
+            Developed a virtual clothing try-on system using Generative
+            Adversarial Networks (GANs) and semantic segmentation.
+            Features included a virtual wardrobe, personalised outfit
+            generation and styling suggestions.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>MedHub – Hospital Review and Booking App</h3>
+        <p>
+            Created a hospital review and booking application concept
+            featuring hospital listings, doctor profiles, appointment
+            booking and health record management.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>AI Career Assistant</h3>
+        <p>
+            An upcoming personal project exploring AI-powered job
+            application tracking, CV analysis and interview preparation.
+        </p>
+        <p><strong>Status:</strong> In development</p>
+    </div>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+    <div class="card">
+        <h3>Bachelor of Engineering – Computer Science</h3>
+        <p>Universal Engineering College, Kerala, India</p>
+        <p>2020 – 2024 | Distinction</p>
+    </div>
+
+    <div class="card">
+        <h3>A-Level – Computer Science</h3>
+        <p>MES HSS, Kerala, India | 2018 – 2020</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <div class="card">
+        <p>Email: farseena02@gmail.com</p>
+        <p>Phone: +44 7831 547284</p>
+        <p>Location: United Kingdom</p>
+        <p>GitHub: Add your GitHub profile link here</p>
+        <p>LinkedIn: Add your LinkedIn profile link here</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Farseena Nazrin | Developer Portfolio</p>
+</footer>
+
+</body>
+</html>
